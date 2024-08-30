@@ -1,0 +1,353 @@
+#education{
+    padding: 2% 0;
+}
+.eduyear{
+    font-size: 80px;
+    background:linear-gradient(
+        to right,
+        black,
+        rgb(8, 216, 147),
+        rgb(141, 138, 138),
+        black,
+        rgb(8, 216, 147),
+        rgb(141, 138, 138)
+    );
+    width: fit-content;
+    background-clip: text;
+    color: transparent;
+    margin: 0 0 0 50%;
+}
+#eduyear{
+    display: flex;
+    padding: 0 10%;
+    margin: 5%;
+    justify-content: space-between;
+    transition: all 1s ease-in-out;
+}
+#eduyear:hover{
+    .eduLight{
+        color: yellow;
+        filter: drop-shadow(1px 1px 50px rgb(245, 240, 240));
+    }
+}
+.year{
+    color: rgb(48, 50, 51);
+    font-size: 35px;
+}
+.edufs{
+    border: 0;
+    border-left: solid rgb(14, 12, 12) 5px;
+    padding: 0px 10px 10px 40px;
+    
+    
+}
+.eduLight{
+    color: transparent;
+    background-clip: text;
+    background-color: rgb(255, 254, 254);
+    filter: drop-shadow(1px 1px 1px black);
+    font-size: 30px;
+    margin: 0px 0 0 -58px;
+    transition: all 0.5s ease-in-out;
+    
+}
+.eduh1{
+    font-size: 30px;
+    margin: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.eduh3{
+    color: rgb(8, 216, 147);
+    margin: 10px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.edup{
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(47, 47, 48);
+}
+.projectDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skillused, .suimage{
+    font-size: 45px;
+    margin: 10px 0 30px 100px;
+    
+}
+.projectTitle{
+    font-size: 40px;
+    color: black;
+    border-bottom: solid 2px black;
+    width: fit-content;
+    margin: 0 0 30px 0;
+
+}
+.projectPara{
+    font-size: 25px;
+    color: rgb(39, 39, 39);
+    margin: 0 0 30px 0;
+    justify-content: center;
+}
+.projectbox{
+    width: 40%;
+    background-color: rgb(243, 239, 239);
+    padding: 50px;
+    border-radius: 24px;
+    border: solid 10px rgb(243, 239, 239);
+    box-shadow: insert 0 0 0 0 white;
+    transition: all 1s ease-in-out;
+    margin: 30px 0;
+}
+.projectbox:hover{
+    background-color: transparent;
+    box-shadow: insert 0 0px 0 100px white;
+}
+.link{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(8, 216, 147);
+    background: transparent;
+    border: solid 2px rgb(8, 216, 147);
+    padding: 10px 20px;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 rgb(8, 216, 147);
+    transition: ease-out 0.5s;
+    border-radius: 24px;
+    word-spacing: 5px;
+}
+.link:hover{
+    color: white;
+    box-shadow: inset 0 -100px 0 0 rgb(8, 216, 147);
+}
+.suimage{
+    height: 40px;
+    width: 40px;
+    
+    margin: 0px 0 30px 100px;
+}
+.contact{
+    text-align: center;
+}
+.contactme{
+    color: rgb(8, 216, 147);
+    font-size: 40px;
+}
+.contactph, .contactml{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.contactPH, .contactML{
+    font-size: 30px;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(56, 55, 55);
+    transition: all 0.5s ease;
+}
+.contactPH, .contactML:hover{
+    color: black;
+}
+.contactDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+.contactright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+.contactip, .message{
+    width: 18rem;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    background-color: rgb(216, 213, 213);
+    border-radius: 24px;
+}
+.message{
+    width: 36rem;
+    height: 10rem;
+}
+.copyright{
+    background-color: black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(170, 169, 169);
+}
+.copyright i{
+    color: rgb(247, 10, 10);
+}
+
+@media only screen and (max-width:480px), (min-width: 481px) and (max-width: 768px), (min-width: 768.1px) and (max-width: 991.98px){
+    .eduyear{
+        font-size: 35px;
+        margin: 0 0 0 0px;
+    }
+    #eduyear{
+        display: block;
+        padding: 0 0%;
+        margin: 5%;
+        justify-content: space-between;
+        transition: all 1s ease-in-out;
+    }
+    .year{
+        color: rgb(48, 50, 51);
+        font-size: 30px;
+        margin: 50px 0 0 0;
+    }
+    .edufs{
+        border: 0;
+        border-left: none;
+        padding: 0px 10px 10px 10px;
+        
+        
+    }
+    .eduLight{
+        display: none;
+        
+    }
+    .eduh1{
+        font-size: 20px;
+        margin: 40px 0 0 0;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .eduh3{
+        margin: 10px;
+        font-size: 20px;
+    }
+    .edup{
+        margin: 0px;
+        font-size: 20px;
+        color: rgb(47, 47, 48);
+    }
+    .link{
+        margin: 10px;
+        text-decoration: none;
+        color: rgb(8, 216, 147);
+        background: transparent;
+        border: solid 2px rgb(8, 216, 147);
+        padding: 10px 20px;
+        font-size: 20px;
+        box-shadow: inset 0 0 0 0 rgb(8, 216, 147);
+        transition: ease-out 0.5s;
+        border-radius: 24px;
+        word-spacing: 5px;
+    }
+    .skillused, .suimage{
+        font-size: 25px;
+        margin: 10px 0 30px 10px;
+        
+    }
+    .projectTitle{
+        font-size: 30px;
+    
+    }
+    .projectPara{
+        font-size: 20px;
+        color: rgb(39, 39, 39);
+        margin: 0 0 30px 0;
+    }
+    .projectbox{
+        width: 90%;
+        padding: 0px;
+        border-radius: 24px;
+    }
+    
+    .suimage{
+        height: 25px;
+        width: 25px;
+        
+        margin: 0px 0 0px 10px;
+    }
+    .contactph, .contactml{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .contactPH, .contactML{
+        font-size: 20px;
+        margin: 0px 10px;
+        text-decoration: none;
+        color: rgb(56, 55, 55);
+        transition: all 0.5s ease;
+    }
+    .contactDiv{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+    .contactright{
+        width: 90%;
+        display: block;
+        
+    }
+    .contactip, .message{
+        width: 12rem;
+        padding: 20px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 10px;
+        background-color: rgb(216, 213, 213);
+        border-radius: 24px;
+    }
+    .message{
+        width: 12rem;
+        height: 10rem;
+    }
+    
+}
+@media  (min-width: 768.1px) and (max-width: 991.98px){
+    .contactip, .message{
+        width: 15rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    
+    #eduyear{
+        padding: 0 0%;
+        margin: 5%;
+    }
+    
+    
+    .projectbox{
+        width: 35%;
+    }
+    .contactip, .message{
+        width: 11rem;
+    }
+    .message{
+        width: 30rem;
+    }
+    
+}
+@media (min-width: 1200px){
+    
+    .contactip, .message{
+        width: 12rem;
+    }
+    .message{
+        width: 34rem;
+    }
+}
+@media (min-width: 1600px){
+    .contactright{
+        width: 70%;
+        
+    }
+    .contactip, .message{
+        width: 22rem;
+    }
+    .message{
+        width: 62rem;
+    }
+}
