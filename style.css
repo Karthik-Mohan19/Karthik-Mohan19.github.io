@@ -101,7 +101,7 @@ nav .fas{
     }
 }
 
-.ml, .li, .gh, .wa, .ig{
+.ml, .li, .gh, .wa, .ig, .tw{
     font-size: 40px;
     margin: 25px;
     scale: 1;
@@ -136,6 +136,10 @@ nav .fas{
 .li:hover{
     scale: 1.1;
     color: rgb(11, 11, 211);
+}
+.tw:hover{
+    scale: 1.1;
+    color: rgb(31, 135, 231);
 }
 .gh:hover{
     color: black;
